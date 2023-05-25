@@ -14,6 +14,8 @@ use the string class that is provided by the C++ standard.
 - Use if/else statements
 - Write your own functions
 - Use methods provided by the string object
+- Use an Iterator when breaking the barcode down
+- Use Arrays to get input from the user
 
 ## Task 1 - Write the program
 
@@ -48,16 +50,17 @@ The digit can be easily computed from the bar code using the column weights
 7,4,2,1,0. For example, 01100 is 0 x 7 + 1 x 4 + 1 x 2 + 0 x 1 + 0 x 0 = 6. The
 only exception is 0, which would yield 11 according to the weight formula.
 
-Write a program that asks the user for a bar code and prints the correct zip
-code. For example the bar code below should output 95014.
+Write a program that takes a bar code as a command line argument and prints the
+correct zip code. For example the bar code below should output 95014.
 
 `||:|:::|:|:||::::::||:|::|:::|||`
+
+HINT: You will have to use the the argc array in main!
 
 ### Sample output
 
 ```bash
-$ ./myprogram
-Enter a postal bar code: ||:|:::|:|:||::::::||:|::|:::|||
+$ ./myprogram ||:|:::|:|:||::::::||:|::|:::|||
 The value is 95014.
 ```
 
