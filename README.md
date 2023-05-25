@@ -60,8 +60,10 @@ HINT: You will have to use the the argc array in main!
 ### Sample output
 
 ```bash
-$ ./myprogram ||:|:::|:|:||::::::||:|::|:::|||
-The value is 95014.
+shane|(master *=):build$ ./myprogram "||:|:::|:|:||::::::||:|::|:::|||"
+95014
+shane|(master *=):build$ ./myprogram "||::|:::||:|:::|||::::|::||::|:|"
+83704
 ```
 
 ⚠ You **MUST** use functions for this program! You will lose points if you write
