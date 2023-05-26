@@ -14,8 +14,8 @@ use the string class that is provided by the C++ standard.
 - Use if/else statements
 - Write your own functions
 - Use methods provided by the string object
-- Use an Iterator when breaking the barcode down
-- Use Arrays to get input from the user
+- Use an Iterator
+- Use a std::vector to collect all the input from the user
 
 ## Task 1 - Write the program
 
@@ -50,24 +50,51 @@ The digit can be easily computed from the bar code using the column weights
 7,4,2,1,0. For example, 01100 is 0 x 7 + 1 x 4 + 1 x 2 + 0 x 1 + 0 x 0 = 6. The
 only exception is 0, which would yield 11 according to the weight formula.
 
-Write a program that takes a bar code as a command line argument and prints the
-correct zip code. For example the bar code below should output 95014.
-
-`||:|:::|:|:||::::::||:|::|:::|||`
-
-HINT: You will have to use the the argc array in main!
+Your program should allow the user to input as many barcode's as they wish, you
+will need to collect them all in a `std::vector`. The barcode entry will be
+terminated with an input of -1. You will then iterate through the vector and
+convert each barcode to its zip code.
 
 ### Sample output
 
 ```bash
-shane|(master *=):build$ ./myprogram "||:|:::|:|:||::::::||:|::|:::|||"
+$ ./myprogram
+||:|:::|:|:||::::::||:|::|:::|||
+||::|:::||:|:::|||::::|::||::|:|
+-1
+----------
 95014
-shane|(master *=):build$ ./myprogram "||::|:::||:|:::|||::::|::||::|:|"
 83704
+done
 ```
 
 ⚠ You **MUST** use functions for this program! You will lose points if you write
 the whole program in main!
+
+### Extra Bonus (optional)
+
+You may notice that once you are finished it is easy to now convert zip codes
+to their barcode. Update your program to allow you to now input zip codes and
+print out the correct barcode
+
+```bash
+$ ./myprogram
+83704
+83705
+83276
+||::|:::||:|:::|||::::|::||::|:|
+||::|:::||:|:::|||::::|:|:|:::||
+||::|:::||:::|:||:::|:||:::|::||
+-1
+----------
+||::|:::||:|:::|||::::|::||::|:|
+||::|:::||:|:::|||::::|:|:|:::||
+||::|:::||:::|:||:::|:||:::|::||
+83704
+83705
+83276
+done
+```
 
 ## Task 2 - Generate Build Files
 
