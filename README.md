@@ -75,24 +75,22 @@ the whole program in main!
 
 You may notice that once you are finished it is easy to now convert zip codes
 to their barcode. Update your program to allow you to now input zip codes and
-print out the correct barcode
+barcode's at the same time and convert each one respectively. In the example
+below you can see that 3 zip codes and 1 barcode entered and each was converted
+to is counter part 😃!
 
 ```bash
 $ ./myprogram
 83704
 83705
 83276
-||::|:::||:|:::|||::::|::||::|:|
-||::|:::||:|:::|||::::|:|:|:::||
-||::|:::||:::|:||:::|:||:::|::||
+||:|:::|:|:||::::::||:|::|:::|||
 -1
 ----------
 ||::|:::||:|:::|||::::|::||::|:|
 ||::|:::||:|:::|||::::|:|:|:::||
 ||::|:::||:::|:||:::|:||:::|::||
-83704
-83705
-83276
+95014
 done
 ```
 
