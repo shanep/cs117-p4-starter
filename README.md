@@ -71,13 +71,13 @@ done
 ⚠ You **MUST** use functions for this program! You will lose points if you write
 the whole program in main!
 
-### Extra Bonus (optional)
+## Task 2 - Convert the Other way
 
-You may notice that once you are finished it is easy to now convert zip codes
-to their barcode. Update your program to allow you to now input zip codes and
-barcode's at the same time and convert each one respectively. In the example
-below you can see that 3 zip codes and 1 barcode entered and each was converted
-to is counter part 😃!
+You may notice that once you are finished with the previous task, it is easy to
+now convert zip codes to their barcode. Update your program to allow you to now
+input zip codes and barcode's at the **same time** and convert each one into the
+other respectively. In the example below you can see that 3 zip codes and 1
+barcode entered and each was converted to is counter part 😃!
 
 ```bash
 $ ./myprogram
@@ -94,7 +94,7 @@ $ ./myprogram
 done
 ```
 
-## Task 2 - Generate Build Files
+## Task 3 - Generate Build Files
 
 There are two scripts in the root directory named `clean.sh` and `release.sh`.
 One creates a release build to compile your project and the other will delete
@@ -117,7 +117,7 @@ shane|(master *%=):solution$ ./release.sh
 -- Build files have been written to: ...
 ```
 
-## Task 3 - Compile your code
+## Task 4 - Compile your code
 
 After you have run `release.sh` you can `cd` into the build directory to compile
 and run the program.
@@ -135,7 +135,7 @@ not compile you will need to return to task 1 and fix your code and then return
 to this task to compile your code again. You only need to run the `release.sh`
 script once if you are recompiling you can skip Task 2 above.
 
-## Task 4 - Complete the Retrospective
+## Task 5 - Complete the Retrospective
 
 Once you have completed all the tasks open the file **Retrospective.md** and
 complete each section that has a TODO label.
@@ -155,7 +155,7 @@ For the **Sources used** section you must detail any sources you used outside of
 the textbook or course website. If you write NONE in this section it is assumed
 that you didn't use google at all. Be safe CITE!
 
-## Task 5 - Add, Commit, Push your code
+## Task 6 - Add, Commit, Push your code
 
 Once you are finished you need to make sure that you have pushed all your code
 to GitHub for grading! You will not be submitting anything to canvas everything
