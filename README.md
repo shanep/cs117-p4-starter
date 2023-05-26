@@ -17,7 +17,7 @@ use the string class that is provided by the C++ standard.
 - Use an Iterator
 - Use a std::vector to collect all the input from the user
 
-## Task 1 - Write the program
+## Task 1 - Convert Barcode's to Zip Codes
 
 For faster sorting of letters, the United States Postal Service encourages
 companies that send large volumes of mail to use a bar code denoting the zip
@@ -71,7 +71,7 @@ done
 ⚠ You **MUST** use functions for this program! You will lose points if you write
 the whole program in main!
 
-## Task 2 - Convert the Other way
+## Task 2 - Convert Zip Codes to Barcode's or Vice Versa
 
 You may notice that once you are finished with the previous task, it is easy to
 now convert zip codes to their barcode. Update your program to allow you to now
