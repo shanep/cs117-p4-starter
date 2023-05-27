@@ -17,7 +17,7 @@ use the string class that is provided by the C++ standard.
 - Use an Iterator
 - Use a std::vector to collect all the input from the user
 
-## Task 0 - Generate Build Files
+## Task 1 - Generate Build Files
 
 There are two scripts in the root directory named `clean.sh` and `release.sh`.
 One creates a release build to compile your project and the other will delete
@@ -40,7 +40,7 @@ shane|(master *%=):solution$ ./release.sh
 -- Build files have been written to: ...
 ```
 
-## Task 1 - Convert Barcode's to Zip Codes
+## Task 2 - Convert Barcode's to Zip Codes
 
 For faster sorting of letters, the United States Postal Service encourages
 companies that send large volumes of mail to use a bar code denoting the zip
@@ -94,7 +94,7 @@ done
 ⚠ You **MUST** use functions for this program! You will lose points if you write
 the whole program in main!
 
-## Task 2 - Convert Zip Codes to Barcode's or Vice Versa
+## Task 3 - Convert Zip Codes to Barcode's or Vice Versa
 
 You may notice that once you are finished with the previous task, it is easy to
 now convert zip codes to their barcode. Update your program to allow you to now
@@ -117,7 +117,13 @@ $ ./myprogram
 done
 ```
 
-## Task 3 - Complete the Retrospective
+## Task 4 - Unit Testing
+
+Your instructor will provide you with unit testing scripts to help guide your
+development. These will be posted on canvas with instructions on how to add
+them to your project.
+
+## Task 5 - Complete the Retrospective
 
 Once you have completed all the tasks open the file **Retrospective.md** and
 complete each section that has a TODO label.
@@ -137,7 +143,7 @@ For the **Sources used** section you must detail any sources you used outside of
 the textbook or course website. If you write NONE in this section it is assumed
 that you didn't use google at all. Be safe CITE!
 
-## Task 4 - Add, Commit, Push your code
+## Task 6 - Add, Commit, Push your code
 
 Once you are finished you need to make sure that you have pushed all your code
 to GitHub for grading! You will not be submitting anything to canvas everything
