@@ -5,7 +5,7 @@ use the string class that is provided by the C++ standard.
 
 ## Important Links
 
-- Review the [grading rubric](https://shanepanter.com/cs452/grading-rubric.html)
+- Review the [grading rubric](https://shanepanter.com/cs117/grading-rubric.html)
 
 ## Objectives
 
